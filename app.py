@@ -127,7 +127,7 @@ def draw_detections(image, detections, confidence_threshold=0.8):
 # --- Antarmuka Streamlit ---
 
 st.title("️ Deteksi Objek pada Gambar")
-st.write("Gunakan model DETR (via Transformers) untuk menemukan objek dalam gambar.")
+st.write("Gunakan model FB DETR (via Transformers) untuk menemukan objek dalam gambar.")
 st.write("---")
 
 input_method = st.radio(
