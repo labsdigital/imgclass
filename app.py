@@ -1,5 +1,3 @@
-# @title Sel 2: Tulis Kode Aplikasi ke file app.py (Diperbarui)
-%%writefile app.py
 import streamlit as st
 import requests
 from PIL import Image, ImageDraw, ImageFont
