@@ -1,0 +1,24 @@
+# requirements.txt
+
+# Framework untuk membangun aplikasi web interaktif
+streamlit
+
+# Library Hugging Face untuk mengakses model dan pipeline pra-terlatih
+transformers
+
+# Library deep learning utama (diperlukan oleh transformers)
+torch
+
+# Library Model Gambar PyTorch (sering digunakan sebagai backend atau dependensi oleh model HF)
+timm
+
+# Library untuk pemrosesan gambar (membuka, menggambar)
+Pillow>=9.0.0 # Versi >= 9.0.0 direkomendasikan untuk penanganan font yang lebih baik (textbbox)
+
+# Library untuk membuat permintaan HTTP (mengunduh gambar dari URL)
+requests
+
+# Library plotting, sering berguna dalam lingkungan ML/Data Science
+# Meskipun tidak secara eksplisit diimpor di app.py akhir, itu ada dalam daftar instalasi asli.
+# Hapus jika Anda yakin tidak memerlukannya atau dependensinya.
+matplotlib
